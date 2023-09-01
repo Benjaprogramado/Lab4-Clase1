@@ -18,10 +18,10 @@ export class AppComponent {
     this.promedio = (this.edadUno + this.edadDos)/2
   }
 
-cleanValues(){
-  this.edadUno = 0
-  this.edadDos = 0
-  this.suma = 0
-  this.promedio = 0
-}
+  cleanValues(){
+    this.edadUno = 0
+    this.edadDos = 0
+    this.suma = 0
+    this.promedio = 0
+  }
 }
